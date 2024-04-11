@@ -12,13 +12,13 @@ import Data.Foldable (foldMap)
 #endif
 
 import Control.Arrow (left)
+import Control.Monad (forM)
 import Control.Monad.Identity
 import Control.Monad.Reader
 import Control.Monad.Trans.Except
 import Control.Monad.Error.Class (MonadError(..))
 
 import Data.Void
-import Data.Monoid
 import Data.DList (DList)
 import qualified Data.DList as DList
 import Data.Text (Text)
